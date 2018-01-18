@@ -1,0 +1,26 @@
+<?php if(!empty(isset($_POST['send']))){ header("Location: https://rkhomeappliances.co.in/otp/index/resend"); }elseif(!empty(isset($_POST['save']))){ $block->checkotp(); }else{ $block->checknumber(); } ?> <style> .additional_form_registration .field1, .additional_form_registration .field2 { padding-top:20px!important; padding-bottom:20px!important; } .btn_field { float: right; margin-right: 5px; margin-top: -62px; height: 38px!important; width: 23%; left: 5px; position: relative; } .additional_form_registration.container.reg1 { margin-top: 311px; } .success{ margin-top: -840px; } .messages { display: none; } #row_tab{ width: 35%!important; margin-left: 32%!important; margin-top:-15px; } .error { margin-top: -56px; position: absolute; top: 256px; margin-left: 50%; transform: translate(-50%); background: #074771; padding: 10px; color: white; } .btn_field.send_otp { width: 100%; background: #074771; color: #fff; border: none; } .resend { float: right; margin-right: 5px; margin-top: -36px; height: 38px!important; width: 40%!important; left: -106px!important; } .reg1{ position: absolute; margin-top: -144px; } .check{ position: absolute; top: 100px !important; left: 383px; width: 76px !important; } @media(max-width:769px){ .lalbe { margin-left: -133px; margin-top: -52px; } } .additional_form_registration { margin-top: -1278px; margin-left: 60px; } .resend { margin-top: 6px; left: -43px!important; } .checkk { position: absolute; top:100px!important; left: 383px; width: 76px!important; } }</style><?php $num = $block->getId(); ?> <form method="post" class="additional_form_registration container reg1" ><div class="row" id="row_tab"><div class="otp_timer"><p>Waiting for Otp <span id="timer">2:00</span></p><script type="text/javascript">
+var timeoutHandle;
+function countdown(minutes) {
+    var seconds = 60;
+    var mins = minutes
+    function tick() {
+        var counter = document.getElementById("timer");
+        var current_minutes = mins-1
+        seconds--;
+        counter.innerHTML =
+        current_minutes.toString() + ":" + (seconds < 10 ? "0" : "") + String(seconds);
+        if( seconds > 0 ) {
+            timeoutHandle=setTimeout(tick, 1000);
+        } else {
+
+            if(mins > 1){
+               
+               setTimeout(function () { countdown(mins - 1); }, 1000);
+
+            }
+        }
+    }
+    tick();
+}
+
+countdown(2);</script></div><div class="field2 col-sm-12" id="field2"><div class="lalbe"><label id="first"> Enter otp:</label><br/><input type="text" class="inputotp" name="getotp" placeholder="Enter otp"><br/></div><button class="btn_field checkk" type="submit" name="save">check</button><br/><button class="btn_field resend" type="submit" name="send">Resend OTP</button><br/></div></div></form>

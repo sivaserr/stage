@@ -1,0 +1,6 @@
+s:1172:"Fatal Error: 'Uncaught Error: Call to a member function getValue() on null in /home/rkhomeappliances/public_html/vendor/magento/module-configurable-product/Model/Quote/Item/CartItemProcessor.php:76
+Stack trace:
+#0 /home/rkhomeappliances/public_html/vendor/magento/module-quote/Model/Quote/Item/CartItemOptionsProcessor.php(84): Magento\ConfigurableProduct\Model\Quote\Item\CartItemProcessor->processOptions(Object(Magento\Quote\Model\Quote\Item))
+#1 /home/rkhomeappliances/public_html/vendor/magento/module-quote/Model/Quote/Item/CartItemPersister.php(101): Magento\Quote\Model\Quote\Item\CartItemOptionsProcessor->addProductOptions('configurable', Object(Magento\Quote\Model\Quote\Item))
+#2 /home/rkhomeappliances/public_html/vendor/magento/module-quote/Model/QuoteRepository/SaveHandler.php(86): Magento\Quote\Model\Quote\Item\CartItemPersister->save(Object(Magento\Quote\Model\Quote), Object(Magento\Quote\Model\Quote\Item))
+#3 /home/rkhomeappliances/public_html/vendor/magento/module-quote/Model/QuoteRepository.php(161): Magento\Quot' in '/home/rkhomeappliances/public_html/vendor/magento/module-configurable-product/Model/Quote/Item/CartItemProcessor.php' on line 76";

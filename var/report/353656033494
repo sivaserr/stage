@@ -1,0 +1,9 @@
+a:4:{i:0;s:58:"Setup version for module 'Wallet_Payment' is not specified";i:1;s:1447:"#0 /home/rkhomeappliances/public_html/vendor/magento/framework/Module/DbVersionInfo.php(56): Magento\Framework\Module\DbVersionInfo->isModuleVersionEqual('Wallet_Payment', '1.0.0')
+#1 /home/rkhomeappliances/public_html/vendor/magento/framework/Module/DbVersionInfo.php(79): Magento\Framework\Module\DbVersionInfo->isSchemaUpToDate('Wallet_Payment')
+#2 /home/rkhomeappliances/public_html/vendor/magento/framework/Module/Plugin/DbStatusValidator.php(55): Magento\Framework\Module\DbVersionInfo->getDbVersionErrors()
+#3 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(142): Magento\Framework\Module\Plugin\DbStatusValidator->aroundDispatch(Object(Magento\Framework\App\FrontController\Interceptor), Object(Closure), Object(Magento\Framework\App\Request\Http))
+#4 /home/rkhomeappliances/public_html/var/generation/Magento/Framework/App/FrontController/Interceptor.php(26): Magento\Framework\App\FrontController\Interceptor->___callPlugins('dispatch', Array, Array)
+#5 /home/rkhomeappliances/public_html/vendor/magento/framework/App/Http.php(135): Magento\Framework\App\FrontController\Interceptor->dispatch(Object(Magento\Framework\App\Request\Http))
+#6 /home/rkhomeappliances/public_html/vendor/magento/framework/App/Bootstrap.php(258): Magento\Framework\App\Http->launch()
+#7 /home/rkhomeappliances/public_html/index.php(39): Magento\Framework\App\Bootstrap->run(Object(Magento\Framework\App\Http))
+#8 {main}";s:3:"url";s:126:"/adminrk/admin/system_config/edit/section/porto_settings/key/08be5dfcb3192975be1727fe4a5cace0d3bf7cb103e73cd1cb93b2b2893520bd/";s:11:"script_name";s:10:"/index.php";}
