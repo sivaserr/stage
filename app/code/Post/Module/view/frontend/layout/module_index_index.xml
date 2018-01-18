@@ -1,0 +1,30 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+
+	<head>
+        <title>Titlename</title>
+        <!-- 
+		demo
+		<css src="Post_Module::css/css.css"/>
+		<script src="Post_Module::js/js.js"/>
+		<css src="jquery/fileUploader/css/jquery.fileupload-ui.css"/>
+		<script src="path/file.js" defer="defer"/>
+		<link src="http://url.com" src_type="url"/>
+		<remove src="path/remove/file.css"/>
+
+		-->
+    </head> 
+
+    <body>
+
+
+        <referenceContainer name="sidebar.main">
+            <block class="Post\Module\Block\Index\Sidebar" name="module_index_sidebar" before="-" template="Post_Module::module_index_sidebar.phtml"/>
+        </referenceContainer>
+
+        <referenceContainer name="content">
+            <block class="Post\Module\Block\Index\Index" name="module_index_index" template="Post_Module::module_index_index.phtml"/>
+        </referenceContainer>
+
+
+    </body>
+</page>

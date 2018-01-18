@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Post_Module::parent" title="Module" module="Post_Module" sortOrder="100" resource="Post_Module::parent"/>
+        <add id="Post_Module::index" title="Module Index" module="Post_Module" sortOrder="10" action="module/index" resource="Post_Module::index" parent="Post_Module::parent"/>
+		
+    </menu>
+</config>
