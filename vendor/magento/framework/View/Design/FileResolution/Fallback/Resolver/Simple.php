@@ -120,6 +120,8 @@ class Simple implements Fallback\ResolverInterface
      */
     protected function resolveFile(RuleInterface $fallbackRule, $file, array $params = [])
     {
+        //->getPatternDirs return Array ( [0] => /var/www/html/lib/web )
+        // given that nginx doc root path is /var/www/html
         foreach ($fallbackRule->getPatternDirs($params) as $dir) {
             $path = "{$dir}/{$file}";
             $dirRead = $this->readFactory->create($dir);

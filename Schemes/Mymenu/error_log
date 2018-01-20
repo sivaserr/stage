@@ -1,0 +1,36 @@
+[02-Dec-2017 02:50:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Magento\Framework\Component\ComponentRegistrar' not found in /home/rkhomeappliances/public_html/Schemes/Mymenu/registration.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/rkhomeappliances/public_html/Schemes/Mymenu/registration.php on line 3
+[02-Dec-2017 06:32:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Magento\Framework\Component\ComponentRegistrar' not found in /home/rkhomeappliances/public_html/Schemes/Mymenu/registration.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/rkhomeappliances/public_html/Schemes/Mymenu/registration.php on line 3
+[02-Dec-2017 13:39:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Magento\Framework\Component\ComponentRegistrar' not found in /home/rkhomeappliances/public_html/Schemes/Mymenu/registration.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/rkhomeappliances/public_html/Schemes/Mymenu/registration.php on line 3
+[02-Dec-2017 16:03:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Magento\Framework\Component\ComponentRegistrar' not found in /home/rkhomeappliances/public_html/Schemes/Mymenu/registration.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/rkhomeappliances/public_html/Schemes/Mymenu/registration.php on line 3
+[02-Dec-2017 22:02:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Magento\Framework\Component\ComponentRegistrar' not found in /home/rkhomeappliances/public_html/Schemes/Mymenu/registration.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/rkhomeappliances/public_html/Schemes/Mymenu/registration.php on line 3
+[03-Dec-2017 04:11:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Magento\Framework\Component\ComponentRegistrar' not found in /home/rkhomeappliances/public_html/Schemes/Mymenu/registration.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/rkhomeappliances/public_html/Schemes/Mymenu/registration.php on line 3
+[03-Dec-2017 13:52:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Magento\Framework\Component\ComponentRegistrar' not found in /home/rkhomeappliances/public_html/Schemes/Mymenu/registration.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/rkhomeappliances/public_html/Schemes/Mymenu/registration.php on line 3
+[08-Dec-2017 17:59:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Magento\Framework\Component\ComponentRegistrar' not found in /home/rkhomeappliances/public_html/Schemes/Mymenu/registration.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/rkhomeappliances/public_html/Schemes/Mymenu/registration.php on line 3
+[08-Dec-2017 18:05:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Magento\Framework\Component\ComponentRegistrar' not found in /home/rkhomeappliances/public_html/Schemes/Mymenu/registration.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/rkhomeappliances/public_html/Schemes/Mymenu/registration.php on line 3

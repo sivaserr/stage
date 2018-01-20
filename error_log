@@ -7447,3 +7447,93 @@ Stack trace:
 #1 /home/rkhomeappliances/public_html/var/generation/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(26): Magento\Customer\Controller\Account\LoginPost\Interceptor->___callPlugins('execute', Array, Array)
 #2 /home/rkhomeappliances/public_html/vendor/magento/framework/App/Action/Action.php(102): Magento\Customer\Controller\Account\LoginPost\Interceptor->execute()
 #3 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(74): Magento\Framework\App\Action\Action->dispatch(Object(Ma in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php on line 24
+[11-Jan-2018 11:59:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Magento\Customer\Controller\Account\LoginPost\Interceptor::setPath() in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php:24
+Stack trace:
+#0 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(152): Post\Module\Plugin\LoginPostPlugin->afterExecute(Object(Magento\Customer\Controller\Account\LoginPost\Interceptor), Object(Magento\Customer\Controller\Account\LoginPost\Interceptor))
+#1 /home/rkhomeappliances/public_html/var/generation/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(26): Magento\Customer\Controller\Account\LoginPost\Interceptor->___callPlugins('execute', Array, Array)
+#2 /home/rkhomeappliances/public_html/vendor/magento/framework/App/Action/Action.php(102): Magento\Customer\Controller\Account\LoginPost\Interceptor->execute()
+#3 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(74): Magento\Framework\App\Action\Action->dispatch(Object(Ma in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php on line 24
+[11-Jan-2018 11:59:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Magento\Customer\Controller\Account\LoginPost\Interceptor::setPath() in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php:24
+Stack trace:
+#0 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(152): Post\Module\Plugin\LoginPostPlugin->afterExecute(Object(Magento\Customer\Controller\Account\LoginPost\Interceptor), Object(Magento\Customer\Controller\Account\LoginPost\Interceptor))
+#1 /home/rkhomeappliances/public_html/var/generation/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(26): Magento\Customer\Controller\Account\LoginPost\Interceptor->___callPlugins('execute', Array, Array)
+#2 /home/rkhomeappliances/public_html/vendor/magento/framework/App/Action/Action.php(102): Magento\Customer\Controller\Account\LoginPost\Interceptor->execute()
+#3 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(74): Magento\Framework\App\Action\Action->dispatch(Object(Ma in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php on line 24
+[11-Jan-2018 12:05:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Magento\Customer\Controller\Account\LoginPost\Interceptor::setPath() in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php:24
+Stack trace:
+#0 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(152): Post\Module\Plugin\LoginPostPlugin->afterExecute(Object(Magento\Customer\Controller\Account\LoginPost\Interceptor), Object(Magento\Customer\Controller\Account\LoginPost\Interceptor))
+#1 /home/rkhomeappliances/public_html/var/generation/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(26): Magento\Customer\Controller\Account\LoginPost\Interceptor->___callPlugins('execute', Array, Array)
+#2 /home/rkhomeappliances/public_html/vendor/magento/framework/App/Action/Action.php(102): Magento\Customer\Controller\Account\LoginPost\Interceptor->execute()
+#3 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(74): Magento\Framework\App\Action\Action->dispatch(Object(Ma in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php on line 24
+[12-Jan-2018 08:03:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Magento\Customer\Controller\Account\LoginPost\Interceptor::setPath() in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php:24
+Stack trace:
+#0 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(152): Post\Module\Plugin\LoginPostPlugin->afterExecute(Object(Magento\Customer\Controller\Account\LoginPost\Interceptor), Object(Magento\Customer\Controller\Account\LoginPost\Interceptor))
+#1 /home/rkhomeappliances/public_html/var/generation/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(26): Magento\Customer\Controller\Account\LoginPost\Interceptor->___callPlugins('execute', Array, Array)
+#2 /home/rkhomeappliances/public_html/vendor/magento/framework/App/Action/Action.php(102): Magento\Customer\Controller\Account\LoginPost\Interceptor->execute()
+#3 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(74): Magento\Framework\App\Action\Action->dispatch(Object(Ma in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php on line 24
+[12-Jan-2018 08:05:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Magento\Customer\Controller\Account\LoginPost\Interceptor::setPath() in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php:24
+Stack trace:
+#0 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(152): Post\Module\Plugin\LoginPostPlugin->afterExecute(Object(Magento\Customer\Controller\Account\LoginPost\Interceptor), Object(Magento\Customer\Controller\Account\LoginPost\Interceptor))
+#1 /home/rkhomeappliances/public_html/var/generation/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(26): Magento\Customer\Controller\Account\LoginPost\Interceptor->___callPlugins('execute', Array, Array)
+#2 /home/rkhomeappliances/public_html/vendor/magento/framework/App/Action/Action.php(102): Magento\Customer\Controller\Account\LoginPost\Interceptor->execute()
+#3 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(74): Magento\Framework\App\Action\Action->dispatch(Object(Ma in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php on line 24
+[12-Jan-2018 08:05:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Magento\Customer\Controller\Account\LoginPost\Interceptor::setPath() in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php:24
+Stack trace:
+#0 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(152): Post\Module\Plugin\LoginPostPlugin->afterExecute(Object(Magento\Customer\Controller\Account\LoginPost\Interceptor), Object(Magento\Customer\Controller\Account\LoginPost\Interceptor))
+#1 /home/rkhomeappliances/public_html/var/generation/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(26): Magento\Customer\Controller\Account\LoginPost\Interceptor->___callPlugins('execute', Array, Array)
+#2 /home/rkhomeappliances/public_html/vendor/magento/framework/App/Action/Action.php(102): Magento\Customer\Controller\Account\LoginPost\Interceptor->execute()
+#3 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(74): Magento\Framework\App\Action\Action->dispatch(Object(Ma in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php on line 24
+[12-Jan-2018 08:06:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Magento\Customer\Controller\Account\LoginPost\Interceptor::setPath() in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php:24
+Stack trace:
+#0 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(152): Post\Module\Plugin\LoginPostPlugin->afterExecute(Object(Magento\Customer\Controller\Account\LoginPost\Interceptor), Object(Magento\Customer\Controller\Account\LoginPost\Interceptor))
+#1 /home/rkhomeappliances/public_html/var/generation/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(26): Magento\Customer\Controller\Account\LoginPost\Interceptor->___callPlugins('execute', Array, Array)
+#2 /home/rkhomeappliances/public_html/vendor/magento/framework/App/Action/Action.php(102): Magento\Customer\Controller\Account\LoginPost\Interceptor->execute()
+#3 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(74): Magento\Framework\App\Action\Action->dispatch(Object(Ma in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php on line 24
+[12-Jan-2018 18:24:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Magento\Customer\Controller\Account\LoginPost\Interceptor::setPath() in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php:24
+Stack trace:
+#0 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(152): Post\Module\Plugin\LoginPostPlugin->afterExecute(Object(Magento\Customer\Controller\Account\LoginPost\Interceptor), Object(Magento\Customer\Controller\Account\LoginPost\Interceptor))
+#1 /home/rkhomeappliances/public_html/var/generation/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(26): Magento\Customer\Controller\Account\LoginPost\Interceptor->___callPlugins('execute', Array, Array)
+#2 /home/rkhomeappliances/public_html/vendor/magento/framework/App/Action/Action.php(102): Magento\Customer\Controller\Account\LoginPost\Interceptor->execute()
+#3 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(74): Magento\Framework\App\Action\Action->dispatch(Object(Ma in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php on line 24
+[13-Jan-2018 03:25:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Magento\Customer\Controller\Account\LoginPost\Interceptor::setPath() in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php:24
+Stack trace:
+#0 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(152): Post\Module\Plugin\LoginPostPlugin->afterExecute(Object(Magento\Customer\Controller\Account\LoginPost\Interceptor), Object(Magento\Customer\Controller\Account\LoginPost\Interceptor))
+#1 /home/rkhomeappliances/public_html/var/generation/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(26): Magento\Customer\Controller\Account\LoginPost\Interceptor->___callPlugins('execute', Array, Array)
+#2 /home/rkhomeappliances/public_html/vendor/magento/framework/App/Action/Action.php(102): Magento\Customer\Controller\Account\LoginPost\Interceptor->execute()
+#3 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(74): Magento\Framework\App\Action\Action->dispatch(Object(Ma in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php on line 24
+[13-Jan-2018 03:37:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Magento\Customer\Controller\Account\LoginPost\Interceptor::setPath() in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php:24
+Stack trace:
+#0 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(152): Post\Module\Plugin\LoginPostPlugin->afterExecute(Object(Magento\Customer\Controller\Account\LoginPost\Interceptor), Object(Magento\Customer\Controller\Account\LoginPost\Interceptor))
+#1 /home/rkhomeappliances/public_html/var/generation/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(26): Magento\Customer\Controller\Account\LoginPost\Interceptor->___callPlugins('execute', Array, Array)
+#2 /home/rkhomeappliances/public_html/vendor/magento/framework/App/Action/Action.php(102): Magento\Customer\Controller\Account\LoginPost\Interceptor->execute()
+#3 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(74): Magento\Framework\App\Action\Action->dispatch(Object(Ma in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php on line 24
+[15-Jan-2018 14:59:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Magento\Customer\Controller\Account\LoginPost\Interceptor::setPath() in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php:24
+Stack trace:
+#0 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(152): Post\Module\Plugin\LoginPostPlugin->afterExecute(Object(Magento\Customer\Controller\Account\LoginPost\Interceptor), Object(Magento\Customer\Controller\Account\LoginPost\Interceptor))
+#1 /home/rkhomeappliances/public_html/var/generation/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(26): Magento\Customer\Controller\Account\LoginPost\Interceptor->___callPlugins('execute', Array, Array)
+#2 /home/rkhomeappliances/public_html/vendor/magento/framework/App/Action/Action.php(102): Magento\Customer\Controller\Account\LoginPost\Interceptor->execute()
+#3 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(74): Magento\Framework\App\Action\Action->dispatch(Object(Ma in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php on line 24
+[18-Jan-2018 02:21:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Magento\Customer\Controller\Account\LoginPost\Interceptor::setPath() in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php:24
+Stack trace:
+#0 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(152): Post\Module\Plugin\LoginPostPlugin->afterExecute(Object(Magento\Customer\Controller\Account\LoginPost\Interceptor), Object(Magento\Customer\Controller\Account\LoginPost\Interceptor))
+#1 /home/rkhomeappliances/public_html/var/generation/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(26): Magento\Customer\Controller\Account\LoginPost\Interceptor->___callPlugins('execute', Array, Array)
+#2 /home/rkhomeappliances/public_html/vendor/magento/framework/App/Action/Action.php(102): Magento\Customer\Controller\Account\LoginPost\Interceptor->execute()
+#3 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(74): Magento\Framework\App\Action\Action->dispatch(Object(Ma in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php on line 24
+[18-Jan-2018 02:21:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Magento\Customer\Controller\Account\LoginPost\Interceptor::setPath() in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php:24
+Stack trace:
+#0 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(152): Post\Module\Plugin\LoginPostPlugin->afterExecute(Object(Magento\Customer\Controller\Account\LoginPost\Interceptor), Object(Magento\Customer\Controller\Account\LoginPost\Interceptor))
+#1 /home/rkhomeappliances/public_html/var/generation/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(26): Magento\Customer\Controller\Account\LoginPost\Interceptor->___callPlugins('execute', Array, Array)
+#2 /home/rkhomeappliances/public_html/vendor/magento/framework/App/Action/Action.php(102): Magento\Customer\Controller\Account\LoginPost\Interceptor->execute()
+#3 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(74): Magento\Framework\App\Action\Action->dispatch(Object(Ma in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php on line 24
+[18-Jan-2018 02:35:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Magento\Customer\Controller\Account\LoginPost\Interceptor::setPath() in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php:24
+Stack trace:
+#0 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(152): Post\Module\Plugin\LoginPostPlugin->afterExecute(Object(Magento\Customer\Controller\Account\LoginPost\Interceptor), Object(Magento\Customer\Controller\Account\LoginPost\Interceptor))
+#1 /home/rkhomeappliances/public_html/var/generation/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(26): Magento\Customer\Controller\Account\LoginPost\Interceptor->___callPlugins('execute', Array, Array)
+#2 /home/rkhomeappliances/public_html/vendor/magento/framework/App/Action/Action.php(102): Magento\Customer\Controller\Account\LoginPost\Interceptor->execute()
+#3 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(74): Magento\Framework\App\Action\Action->dispatch(Object(Ma in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php on line 24
+[18-Jan-2018 02:36:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Magento\Customer\Controller\Account\LoginPost\Interceptor::setPath() in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php:24
+Stack trace:
+#0 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(152): Post\Module\Plugin\LoginPostPlugin->afterExecute(Object(Magento\Customer\Controller\Account\LoginPost\Interceptor), Object(Magento\Customer\Controller\Account\LoginPost\Interceptor))
+#1 /home/rkhomeappliances/public_html/var/generation/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(26): Magento\Customer\Controller\Account\LoginPost\Interceptor->___callPlugins('execute', Array, Array)
+#2 /home/rkhomeappliances/public_html/vendor/magento/framework/App/Action/Action.php(102): Magento\Customer\Controller\Account\LoginPost\Interceptor->execute()
+#3 /home/rkhomeappliances/public_html/vendor/magento/framework/Interception/Interceptor.php(74): Magento\Framework\App\Action\Action->dispatch(Object(Ma in /home/rkhomeappliances/public_html/app/code/Post/Module/Plugin/LoginPostPlugin.php on line 24
